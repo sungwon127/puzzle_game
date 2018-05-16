@@ -1,0 +1,13 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, select, textarea, button {margin: 0;padding: 0;font-size: 12px;line-height: 120%;font-family: '돋움',dotum,Dotum,Sans-serif;color: .666;}
+ul, ol {list-style:none;}
+img {border:none;}
+a {text-decoration: none;}
+h1 {text-align:center;margin:30px auto;font-size:36px;font-weight:bold;font-family:'Malgun Gothic';color:#000;}
+.puzzleWrap {position:relative;;width:600px;height:600px;overflow:hidden;border:1px solid #000;margin:0 auto;}
+.puzzleWrap li {width:200px;height:200px;overflow:hidden;position:absolute;z-index:1}
+.puzzleWrap button {display:block;width:200px;height:200px;background-image:url('../img/img.jpg');background-repeat:no-repeat;background-position:0 0;border:0;}
+.none{background:#fff;z-index:0 !important}
+.btnReset {margin:0 auto;width:80px;height:30px;color: #fff;background: #767676;border:0;font-size:14px;display:block;font-weight:bold;margin-top:20px}
+.logWrap {width:600px;height:200px;border:1px solid #000;margin:0 auto;margin-top:20px;overflow-y:auto;padding:10px;box-sizing:border-box;}
+.logWrap p {margin-bottom:10px}
+.logWrap p:last-child {margin-bottom: 0}
